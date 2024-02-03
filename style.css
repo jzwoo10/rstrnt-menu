@@ -1,11 +1,63 @@
-#main {
-    border-style: solid;
-    border-color: palevioletred;
-    border-width: 2px;
+body {
+    background: lightgoldenrodyellow;
+    /* max-width: 500px; */
+    margin: auto;
+    width: 100%;
 }
 
-.pink {
-    color: pink;
+#main {
+    border-style: double;
+    border-color: darkolivegreen;
+    border-width: 5px;
+    padding: 15px;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #a1b53e;
+  }  
+
+.headertitle {
+    font-family: "club-lithographer", sans-serif;
+    font-size: 30px;
+    font-weight: 350;
+    font-style: italic;
+    color: #44631e;
+}
+
+.yllw {
+    color: lightgoldenrodyellow;
+}
+
+.italic {
+    font-style: italic;
+    position: right;
+}
+
+h2, h4 {
+    color: #53732d;
+    font-family: "club-lithographer", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h2 {
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+p, ul {
+    font-family: "bookmania", serif;
+    font-weight: 400;
+}
+
+img {
+    position: right;
+    width: 30%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 50%;
 }
 
 @media (min-width: 600px) {
